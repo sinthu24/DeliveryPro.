@@ -95,7 +95,7 @@ public class UserPage extends AppCompatActivity {
                       user.setHomeAd(txt_home.getText().toString().trim());
                       user.setCity(txt_city.getText().toString().trim());
                       user.setPass((txt_pass.getText().toString().trim()));
-                      dbRef_user.child("User1").setValue(user);
+                      dbRef_user.child("user1").setValue(user);
                       Toast.makeText(getApplicationContext(),"Successfully Inserted",Toast.LENGTH_SHORT).show();
                       clearControls();
 
@@ -104,6 +104,14 @@ public class UserPage extends AppCompatActivity {
                 catch (Exception e) {
                     e.printStackTrace();
                 }
+            }
+        });
+        btn_del.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dbRef_user=FirebaseDatabase.getInstance().getReference().child("user").child("user1");
+                dbRef_user.removeValue();
+                Toast.makeText(getApplicationContext(),"Successfully Deleted",Toast.LENGTH_SHORT).show();
             }
         });
 
