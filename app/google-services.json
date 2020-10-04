@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "460855601332",
+    "firebase_url": "https://deliverypro-8c146.firebaseio.com",
+    "project_id": "deliverypro-8c146",
+    "storage_bucket": "deliverypro-8c146.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460855601332:android:ac9d03cdeb2dd61641cfe1",
+        "android_client_info": {
+          "package_name": "com.example.deliverypro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460855601332-p5opqmk8qd4p2tnks8n83rtthqoqchnp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChJtTkzU2ZOtMOOfkS_WWKG3303LySY1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460855601332-p5opqmk8qd4p2tnks8n83rtthqoqchnp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
